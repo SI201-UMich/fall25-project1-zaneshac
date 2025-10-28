@@ -38,6 +38,7 @@ def avg_body_mass_Adelie(data):
     return sum(masses) / len(masses)
 
 def body_mass_flipper_len_corr(data):
+    # second function
     # Return correlation between the body mass and the flipper length.
     flippers, masses = [], []
     for row in data:
